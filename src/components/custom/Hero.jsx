@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-[#f9fafb] to-[#e5e7eb] py-20 px-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-[#F9FAFB] to-[#E5E7EB] py-20 px-4">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -13,7 +13,7 @@ function Hero() {
         className="flex flex-col items-center text-center gap-8 max-w-4xl"
       >
         <h1 className="font-extrabold text-5xl md:text-6xl lg:text-7xl leading-tight">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#f56551] to-[#e53e3e]">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#7C3AED] to-[#EC4899]">
             Discover Your Next Adventure with AI:
           </span>{' '}
           <br />
@@ -24,7 +24,7 @@ function Hero() {
         </p>
         <Link to={'/create-trip'}>
           <Button
-            className="bg-gradient-to-r from-[#f56551] to-[#e53e3e] text-white font-semibold py-3 px-6 rounded-full hover:from-[#e53e3e] hover:to-[#f56551] transition-all shadow-lg hover:shadow-xl"
+            className="bg-gradient-to-r from-[#7C3AED] to-[#EC4899] text-white font-semibold py-3 px-6 rounded-full hover:from-[#8B5CF6] hover:to-[#F472B6] transition-all shadow-lg hover:shadow-xl"
           >
             Get Started, It's Free
           </Button>
