@@ -25,7 +25,7 @@ function ViewTrip() {
     useEffect(()=>{
         tripId&&GetTripData();
     },[tripId])
-    // Get Trip Info DAta from Firebase
+    // Get Trip Info Data from Firebase
   return (
     <div className='p-12 md:px-25 lg:px-44 xl:px:56'>
         <InfoSection trip={trip}/>
