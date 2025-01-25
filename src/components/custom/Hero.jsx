@@ -29,6 +29,39 @@ function Hero() {
             Get Started, It's Free
           </Button>
         </Link>
+                {/* GitHub Promotion Section */}
+                <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1, duration: 0.8 }}
+          className="mt-8 text-sm text-gray-600"
+        >
+          <p>
+            Loved this project? Star it on{' '}
+            <a
+              href="https://github.com/pavankumar2004/TravelwithAI"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#7C3AED] hover:text-[#EC4899] underline transition-colors"
+            >
+              GitHub
+            </a>{' '}
+            and show your support! ✨
+          </p>
+          <p className="mt-2">
+            Developed by{' '}
+            <a
+              href="https://github.com/pavankumar2004/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#7C3AED] hover:text-[#EC4899] underline transition-colors"
+            >
+              Pavan Kumar
+            </a>
+            .
+          </p>
+        </motion.div>
+
         <motion.img
           src="/landing.png"
           alt="Travel Illustration"
@@ -37,6 +70,7 @@ function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
         />
+
       </motion.div>
     </div>
   );
