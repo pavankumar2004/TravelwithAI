@@ -36,7 +36,6 @@ Here are some screenshots of the application:
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Firebase (Authentication, Firestore)
 - **AI Integration**: Google Gemini AI
-- **Maps**: Google Maps API
 - **Authentication**: Google OAuth
 - **Hosting**: Vercel
 
