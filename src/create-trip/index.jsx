@@ -91,7 +91,7 @@ function CreateTrip() {
         transition={{ duration: 0.5 }}
       >
         <h2 className="font-bold text-4xl bg-gradient-to-r from-[#7C3AED] to-[#EC4899] bg-clip-text text-transparent">
-          Craft Your Perfect Journey 🌍
+          Craft Your Perfect Journey !
         </h2>
         <p className="mt-3 text-gray-600 text-xl">
           Share your travel dreams with us, and watch as AI weaves them into a bespoke adventure
