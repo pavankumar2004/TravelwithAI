@@ -77,8 +77,8 @@ Full-Stack-AI-Trip-Planner/
 To run this project, you will need to add the following environment variables to your `.env` file:
 
 ```plaintext
-VITE_GOOGLE_GEMINI_AI_API_KEY=AIzaSyAKgumOgTBAkbLih0Ftp_NiITNznPEC6dk
-VITE_GOOGLE_AUTH_CLIENT_ID=734764693465-8kicaucn74ib4q6inpgef5hvd6pm92oe.apps.googleusercontent.com
+VITE_GOOGLE_GEMINI_AI_API_KEY=
+VITE_GOOGLE_AUTH_CLIENT_ID=
 ```
 
 ---
