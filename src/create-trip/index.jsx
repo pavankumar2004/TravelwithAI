@@ -39,7 +39,7 @@ function CreateTrip() {
       toast("Please fill all required details!");
       return;
     }
-    toast("Crafting your perfect journey...", {
+    toast(" Crafting your perfect journey wait for 10 seconds", {
       icon: <AiOutlineLoading3Quarters className="h-7 w-7 animate-spin text-[#7C3AED]" />,
     });
     setLoading(true);
@@ -108,7 +108,7 @@ function CreateTrip() {
           <div className="mb-5 space-y-2">
             <label className="text-xl font-medium text-gray-800">Dream Destination</label>
             <Input
-              placeholder="Where does your heart want to wander?"
+              placeholder="Where does your heart want to wander? e.g., Japan"
               className="rounded-xl py-6 text-lg border-2 focus:border-[#7C3AED] transition-all"
               value={place}
               onChange={(e) => {
