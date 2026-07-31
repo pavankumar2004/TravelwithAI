@@ -1,6 +1,6 @@
 # TravelwithAI - Full Stack AI Trip Planner
 
-**TravelwithAI** is a full-stack web application designed to help users plan their trips using AI-powered recommendations. The application integrates **Google Gemini AI**, **React**, **Firebase**, **OAuth**, and **Google Maps** to provide a seamless trip planning experience. It also includes scraped images for enhanced visuals and is hosted on **Vercel**.
+**TravelwithAI** is a full-stack web application designed to help users plan their trips using AI-powered recommendations. The application integrates **Google Gemini AI**, **React**, **Firebase**, **OAuth**, and **Open street Maps** to provide a seamless trip planning experience. It also includes scraped images for enhanced visuals and is hosted on **Vercel**.
 
 ---
 
